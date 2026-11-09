@@ -1,0 +1,31 @@
+{
+  "siteName": "Our Games",
+  "status": "pre-release",
+  "games": [
+    {
+      "id": "blockpop",
+      "name": "BlockPop",
+      "visible": true,
+      "status": "internal-testing",
+      "statusLabel": "In internal testing",
+      "shortDescription": "A colorful block puzzle game built around satisfying line clears and your next high score.",
+      "tags": [
+        "Puzzle",
+        "Casual",
+        "Android"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "icon": "assets/blockpop-icon.svg",
+      "detailUrl": "blockpop/index.html",
+      "privacyUrl": "blockpop/privacy.html",
+      "storeUrls": {
+        "googlePlay": null,
+        "appStore": null
+      },
+      "screenshots": [],
+      "note": "Listing under development; no public download link is verified."
+    }
+  ]
+}
