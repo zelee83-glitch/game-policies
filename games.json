@@ -26,6 +26,31 @@
       },
       "screenshots": [],
       "note": "Listing under development; no public download link is verified."
+    },
+    {
+      "id": "magicball",
+      "name": "Magic Ball",
+      "visible": true,
+      "status": "release-preparation",
+      "statusLabel": "Preparing for release",
+      "shortDescription": "Drop magical orbs, trigger matching merges, and chase your high score in 90-second rounds.",
+      "tags": [
+        "Merge",
+        "Casual",
+        "Android"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "icon": "assets/magicball-icon.svg",
+      "detailUrl": "magicball/index.html",
+      "privacyUrl": "magicball/privacy.html",
+      "storeUrls": {
+        "googlePlay": null,
+        "appStore": null
+      },
+      "screenshots": [],
+      "note": "Project name Merge Drop; store name and public listing require confirmation. No public download has been verified."
     }
   ]
 }

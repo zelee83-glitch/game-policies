@@ -2,15 +2,17 @@
 
 Public static website for a growing collection of casual games. Hosted with **GitHub Pages**, with no server, database, analytics SDK, or external JavaScript dependencies.
 
-**Status:** Website and BlockPop privacy disclosure are **pre-release drafts**. Do not submit the policy to Google Play until every verification placeholder has been resolved and it matches the release APK/AAB and Play Console Data safety form.
+**Status:** Website, BlockPop and Magic Ball privacy disclosures are **pre-release drafts**. Do not submit the policy to Google Play until every verification placeholder has been resolved and it matches the release APK/AAB and Play Console Data safety form.
 
 ## Routes
 
-| Page | File | Published URL after Pages activation |
+| Page | File | GitHub Pages URL (check current deployment) |
 | --- | --- | --- |
 | Games home | `index.html` | `https://zelee83-glitch.github.io/game-policies/` |
 | BlockPop game | `blockpop/index.html` | `https://zelee83-glitch.github.io/game-policies/blockpop/` |
 | BlockPop privacy | `blockpop/privacy.html` | `https://zelee83-glitch.github.io/game-policies/blockpop/privacy.html` |
+| Magic Ball game | `magicball/index.html` | `https://zelee83-glitch.github.io/game-policies/magicball/` |
+| Magic Ball privacy (draft) | `magicball/privacy.html` | `https://zelee83-glitch.github.io/game-policies/magicball/privacy.html` |
 | Support | `support.html` | `https://zelee83-glitch.github.io/game-policies/support.html` |
 
 ## Publish with GitHub Pages
@@ -26,7 +28,7 @@ Site files use relative paths so that they also work under the project subpath `
 
 1. Add a folder such as `suika/` with `index.html` and a *game-specific* `privacy.html`.
 2. Add verified images under `assets/`. Avoid uploading source code or confidential development files.
-3. Add one object to `games.json`, with `visible: true`, valid relative `icon` and `detailUrl` values. The homepage reads this catalog and has a static BlockPop fallback.
+3. Add one object to `games.json`, with `visible: true`, valid relative `icon` and `detailUrl` values. The homepage reads this catalog and has a static fallback featuring BlockPop and Magic Ball.
 4. Only add real store URLs after independently confirming the listing is accessible. Set unverified URLs to `null`.
 5. Review the privacy statements and contact information for that game's exact production SDK and build configuration.
 
@@ -43,7 +45,20 @@ Site files use relative paths so that they also work under the project subpath `
 - [ ] Add public store links only after confirmed availability.
 - [ ] Test anonymous HTTPS access to the home, details, policy and support routes, including mobile screen sizes.
 
-The BlockPop app icon is copied from `zelee83-glitch/minigamegem/block-puzzle/icon.svg`. The decorative puzzle board on the homepage is an illustration, **not** a gameplay screenshot.
+The BlockPop app icon is copied from `zelee83-glitch/minigamegem/block-puzzle/icon.svg`. The Magic Ball vector artwork is copied from `zelee83-glitch/minigamegem/merge-drop/assets/merge_drop_icon.svg` (the active project icon is a separate PNG and must be checked before final release). The decorative puzzle board on the homepage is an illustration, **not** a gameplay screenshot.
+
+## Magic Ball publication checklist — NOT COMPLETE
+
+- [ ] Verify the final store title (currently Magic Ball in release documents, Merge Drop in the Godot project), and confirm the public listing is accessible before adding a store link.
+- [ ] Confirm exact publisher name and an operational privacy/support contact channel matching Google Play.
+- [ ] Compare `com.wizardacad.magicball` and the exact signed release AAB against all privacy disclosures, permissions and embedded SDKs.
+- [ ] Verify live AdMob banner behavior, UMP choices, data categories and advertising partners on a real Android device; QA records are not final production evidence.
+- [ ] Verify local saves, leaderboard, backups, retention and deletion claims against the actual shipping build.
+- [ ] Confirm target audience, regions, children's advertising requirements and third-party rights.
+- [ ] Align the final policy, Play Data safety form and an in-game policy link; the UMP privacy-options entry does not replace the policy link.
+- [ ] Remove **all** `[TO CONFIRM]` items and draft notices only after evidence-backed review.
+- [ ] Replace/approve vector artwork after checking the actual PNG launch icon and verified gameplay screenshots.
+- [ ] Run anonymous HTTPS, mobile layout and broken-link checks for all pages.
 
 ## Scope
 

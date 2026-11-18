@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.24" r="0.9">
+      <stop offset="0" stop-color="#2B1F64"/>
+      <stop offset="0.58" stop-color="#12142F"/>
+      <stop offset="1" stop-color="#080A1D"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF0C6"/>
+      <stop offset="0.5" stop-color="#F3C25B"/>
+      <stop offset="1" stop-color="#A66B1E"/>
+    </linearGradient>
+    <radialGradient id="cyan" cx="0.34" cy="0.22" r="0.8">
+      <stop offset="0" stop-color="#D9FBFF"/>
+      <stop offset="0.42" stop-color="#33CFE6"/>
+      <stop offset="1" stop-color="#147DA1"/>
+    </radialGradient>
+    <radialGradient id="pink" cx="0.34" cy="0.22" r="0.8">
+      <stop offset="0" stop-color="#FFE3F1"/>
+      <stop offset="0.42" stop-color="#F26BA8"/>
+      <stop offset="1" stop-color="#A92E6B"/>
+    </radialGradient>
+    <radialGradient id="goldOrb" cx="0.34" cy="0.22" r="0.8">
+      <stop offset="0" stop-color="#FFF8DE"/>
+      <stop offset="0.42" stop-color="#F2C15C"/>
+      <stop offset="1" stop-color="#A66B14"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="98" fill="none" stroke="url(#gold)" stroke-width="6"/>
+  <circle cx="177" cy="221" r="103" fill="#07091D" fill-opacity="0.55"/>
+  <circle cx="177" cy="214" r="100" fill="url(#cyan)" stroke="#07091D" stroke-opacity="0.55" stroke-width="6"/>
+  <circle cx="335" cy="292" r="119" fill="#07091D" fill-opacity="0.55"/>
+  <circle cx="335" cy="285" r="116" fill="url(#pink)" stroke="#07091D" stroke-opacity="0.55" stroke-width="6"/>
+  <circle cx="202" cy="387" r="72" fill="#07091D" fill-opacity="0.55"/>
+  <circle cx="202" cy="381" r="69" fill="url(#goldOrb)" stroke="#07091D" stroke-opacity="0.55" stroke-width="5"/>
+  <path d="M353 96 L366 151 L421 164 L366 177 L353 232 L340 177 L285 164 L340 151 Z" fill="url(#gold)"/>
+  <path d="M92 133 L99 157 L123 164 L99 171 L92 195 L85 171 L61 164 L85 157 Z" fill="#FFF0C6" fill-opacity="0.65"/>
+</svg>
