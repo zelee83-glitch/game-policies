@@ -69,3 +69,9 @@ This repository only contains public website content. No changes to the private 
 - [Google Play Developer Policy — Privacy Policy](https://support.google.com/googleplay/android-developer/answer/18265346)
 - [Prepare your app for review](https://support.google.com/googleplay/android-developer/answer/9859455)
 - [GitHub Pages — publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+## Shared public publisher/privacy information
+
+- [Publisher privacy profile](privacy-config/publisher.json): public, user-confirmed shared publisher display name, privacy/support email, target markets and audience intentions, and intended retention/deletion principles.
+- [Profile status and reuse rules](privacy-config/README.md): distinguishes user decisions from unverified Play Console, legal and build-specific items.
+- The BlockPop and Magic Ball **HTML privacy policies remain drafts**. No HTML policy or game code was changed when the shared profile was recorded.

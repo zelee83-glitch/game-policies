@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "publisherId": "publisher_primary",
+  "identity": {
+    "developerDisplayName": "lee.D",
+    "developerDisplayNameStatus": "user_confirmed_not_play_console_verified",
+    "legalEntityName": null,
+    "legalEntityStatus": "not_provided",
+    "gamesUsingThisProfile": [
+      "blockpop",
+      "magicball"
+    ],
+    "sharedPublisherStatus": "user_confirmed"
+  },
+  "contact": {
+    "privacyEmail": "jakshow@foxmail.com",
+    "supportEmail": "jakshow@foxmail.com",
+    "channel": "shared_email",
+    "status": "user_confirmed"
+  },
+  "distribution": {
+    "intendedMarkets": "global",
+    "status": "user_intention_not_verified_play_console"
+  },
+  "audience": {
+    "intendedMinimumAge": 13,
+    "agePolicyStatus": "pending_regional_and_google_play_policy_review",
+    "childDirectedStatus": "not_determined"
+  },
+  "supportData": {
+    "intendedRetentionDays": 180,
+    "retentionStatus": "user_policy_decision_implementation_unverified",
+    "deletionAndExceptions": "pending_operational_and_legal_review"
+  },
+  "localGameData": {
+    "deletionApproach": "users_may_clear_app_data_or_uninstall_subject_to_verified_backup_and_service_behavior",
+    "status": "proposal_pending_per_game_build_verification"
+  },
+  "thirdPartyData": {
+    "approach": "disclose_each_sdk_actual_processing_and_provider_policies; requests_must_follow_applicable_obligations",
+    "status": "pending_per_game_release_audit"
+  },
+  "publication": {
+    "isFinalPrivacyPolicy": false,
+    "policyPagesUpdatedByThisChange": false,
+    "source": "user_confirmed_profile",
+    "recordedOn": "2026-11-20"
+  }
+}
