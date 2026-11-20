@@ -34,7 +34,7 @@ Site files use relative paths so that they also work under the project subpath `
 
 ## BlockPop publication checklist — NOT COMPLETE
 
-- [ ] Confirm exact developer/publisher name and privacy/support contact, consistent with Play Console.
+- [x] Record developer-provided publisher display name (lee.D) and common privacy/support email (jakshow@foxmail.com). Exact Play Console identity and mailbox operation still require verification.
 - [ ] Verify all data access, collection, transmission and sharing in the **exact signed shipping AAB**, including SDK versions, advertising identifiers, diagnostics, backups, and any analytics.
 - [ ] Confirm whether production AdMob, UMP, Billing, and purchase verification are actually active; list processors and advertising partners.
 - [ ] Establish retention and deletion rules and verify user request mechanisms.
@@ -50,7 +50,7 @@ The BlockPop app icon is copied from `zelee83-glitch/minigamegem/block-puzzle/ic
 ## Magic Ball publication checklist — NOT COMPLETE
 
 - [ ] Verify the final store title (currently Magic Ball in release documents, Merge Drop in the Godot project), and confirm the public listing is accessible before adding a store link.
-- [ ] Confirm exact publisher name and an operational privacy/support contact channel matching Google Play.
+- [x] Record developer-provided publisher display name (lee.D) and common privacy/support email (jakshow@foxmail.com). Exact Play Console identity and mailbox operation still require verification.
 - [ ] Compare `com.wizardacad.magicball` and the exact signed release AAB against all privacy disclosures, permissions and embedded SDKs.
 - [ ] Verify live AdMob banner behavior, UMP choices, data categories and advertising partners on a real Android device; QA records are not final production evidence.
 - [ ] Verify local saves, leaderboard, backups, retention and deletion claims against the actual shipping build.
@@ -74,4 +74,4 @@ This repository only contains public website content. No changes to the private 
 
 - [Publisher privacy profile](privacy-config/publisher.json): public, user-confirmed shared publisher display name, privacy/support email, target markets and audience intentions, and intended retention/deletion principles.
 - [Profile status and reuse rules](privacy-config/README.md): distinguishes user decisions from unverified Play Console, legal and build-specific items.
-- The BlockPop and Magic Ball **HTML privacy policies remain drafts**. No HTML policy or game code was changed when the shared profile was recorded.
+- The BlockPop and Magic Ball HTML privacy policies and shared Support page were updated on 2026-11-20 using the common profile. Both policies **remain pre-release drafts** pending per-game SDK/data-flow, age/region and retention verification. No game code was changed.

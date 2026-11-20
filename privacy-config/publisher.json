@@ -42,8 +42,9 @@
   },
   "publication": {
     "isFinalPrivacyPolicy": false,
-    "policyPagesUpdatedByThisChange": false,
+    "policyPagesUpdatedByThisChange": true,
     "source": "user_confirmed_profile",
-    "recordedOn": "2026-11-20"
+    "recordedOn": "2026-11-20",
+    "htmlLastUpdatedOn": "2026-11-20"
   }
 }
